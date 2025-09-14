@@ -151,7 +151,7 @@ export const Navbar =()=>{
                     <NavLink href="#Projects">Project</NavLink>
                     {/* <NavLink href="#Experience">Experience</NavLink> */}
                     <NavLink href="#Education">Education</NavLink>
-                    <NavLink href="#About">About Me</NavLink>
+                    <NavLink href="#About">About</NavLink>
                 </NavItems>
 
                 <ButtonContainer
@@ -170,8 +170,8 @@ export const Navbar =()=>{
                     <MobileMenu>                    
                         <NavLink href="#About" onClick={()=>setIsopen(!isOpen)} >About</NavLink>
                         <NavLink href="#Skills" onClick={()=>setIsopen(!isOpen)} >Skills</NavLink>
-                        <NavLink href="#Project" onClick={()=>setIsopen(!isOpen)}>Project</NavLink>
-                        <NavLink href="#Experience" onClick={()=>setIsopen(!isOpen)}>Experience</NavLink>
+                        <NavLink href="#Projects" onClick={()=>setIsopen(!isOpen)}>Project</NavLink>
+                        <NavLink href="#Projects" onClick={()=>setIsopen(!isOpen)}>Experience</NavLink>
                         <NavLink href="#Education" onClick={()=>setIsopen(!isOpen)}>Education</NavLink>
                         
                         <GitButton href={bio.github} target="blank" 

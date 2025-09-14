@@ -234,7 +234,7 @@ export const education = [
         institute: "ITM SLS Baroda University",
         date: "Aug 2024 - May 2026",
         grade: "8.51 CGPA",
-        description: "I am currently pursuing a Master of Computer Applications (MCA) at ITM SLS Baroda University, Vadodara. Having completed two semesters, I maintain a strong CGPA of 8.51. My coursework covers essential subjects including Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, equipping me with both practical skills and theoretical knowledge.",
+        description: "I am currently pursuing a Master of Computer Applications (MCA) at ITM SLS Baroda University, Vadodara. Having completed two semesters, I maintain a strong CGPA of 8.51. My coursework covers essential subjects including Data Structures, Algorithms, OOPS, Database Management Systems, Operating Systems, and Computer Networks.",
         degree: "Master Of Computer Application - MCA",
     },
     {
@@ -243,7 +243,7 @@ export const education = [
         institute: "Sardar Patel University",
         date: "Jun 2021 - May 2025",
         grade: "8.20 GPA",
-        description: "I completed my Bachelor of Vocation in Software Development (B.Voc SD) from Sardar Patel University Anand, where I achieved a GPA of 8.20. The program provided a comprehensive foundation in software development, covering key areas such as programming languages, web development, software engineering, and database systems. This course equipped me with both practical experience and a solid theoretical understanding essential for a career in software development.",
+        description: "I completed my Bachelor of Vocation in Software Development (B.Voc SD) from Sardar Patel University Anand, where I achieved a GPA of 8.20. The program provided a comprehensive foundation in software development, covering key areas such as programming languages, web development, software engineering, and database systems.",
         degree: "Bachelor of Vocation (Software Development)- BVoc, Computer Science",
     },
     {

@@ -27,15 +27,39 @@ const Image = styled.img`
     margin-top: 10px;
     border: 3px solid ${({theme})=>theme.primary};
     background-color: white;
+    @media (max-width: 478px){
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        border-radius: 15%;
+    }
+    @media (max-width: 350px){
+        width: 40px;
+        height: 40px;
+    }
 `;
 const Title = styled.div`
     font-size: 24px;
     font-weight: 600;
     color: ${({theme})=>theme.text_primary};
+    @media (max-width: 478px){
+        font-size: 20px;
+    }
+    @media (max-width: 350px){
+        font-size: 18px;
+    }
+    
 `;
 const SubTitle = styled.div`
     font-size: 14px;
     color: ${({theme})=>theme.text_secondary};
+    @media (max-width: 478px){
+        font-size: 12px;    
+    }
+    @media (max-width: 350px){
+        font-size: 10px;    
+    }
+    
 `;
 
 
