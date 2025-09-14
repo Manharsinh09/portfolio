@@ -17,7 +17,7 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;  
-    
+    z-index: 1;
     background: linear-gradient(to right, #5a1a9217, #96238317, #5c103a1e);
     clip-path: polygon(35% 3%, 100% 7%, 100% 97%, 64% 100%, 0 95%, 0 4%);
     @media (max-width: 530px){

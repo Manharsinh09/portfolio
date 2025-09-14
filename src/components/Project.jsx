@@ -13,6 +13,7 @@ const Container = styled.div`
     padding: 10px 50px;
     clip-path: polygon(30% 0.1%, 100% 12%, 100% 100%, 0% 100%, 0% 10%);
     background-color: ${({theme})=>theme.bg};  
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
