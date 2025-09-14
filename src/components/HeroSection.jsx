@@ -141,11 +141,13 @@ const HeroBg = styled.div`
     
  
 `;
-const Button = styled.button`
+const Button = styled.a`
     padding: 10px 20px;
     margin-top: 20px;
     font-size: 16px;
     font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
     border-radius: 4px;
     border: none;    
     background: linear-gradient(to right, #5f179eff, #962383ff);
@@ -189,7 +191,7 @@ export const HeroSection = () =>{
                         </Span>
                     </TextLoop>
                     <SubTitle>{bio.description}</SubTitle>
-                    <Button>RESUME</Button>
+                    <Button href={bio.resume} target="blank">RESUME</Button>
                 </HeroLeftContainer>
                 <HeroRightContainer
                     initial={{ opacity: 0, scale: 0 }}

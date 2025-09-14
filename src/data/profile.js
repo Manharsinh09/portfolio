@@ -7,6 +7,7 @@ import CollegeImg from "../images/college.jpg"
 export const bio ={
     name: "Manharsinh Chauhan",
     github: "https://github.com/Manharsinh09",
+    resume: "https://drive.google.com/file/d/11-7798EmSNDIlmnvaaiSg9_ead2aFrCa/view?usp=sharing",
     roles:[
         "Programer",
         "Full Stack Developer",
