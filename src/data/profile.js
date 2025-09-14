@@ -8,7 +8,7 @@ import SchoolLogo from "../images/schoollogo.jpg"
 export const bio ={
     name: "Manharsinh Chauhan",
     github: "https://github.com/Manharsinh09",
-    resume: "https://drive.google.com/file/d/1gbHw5hdnHdFX84eB8NI_sYMVDxZJsorp/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1jXV3mU0WO8kbX_Vo5UrIu4VE-ZNeawj7/view?usp=sharing",
     roles:[
         "Programer",
         "Full Stack Developer",
