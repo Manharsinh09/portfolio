@@ -2,12 +2,13 @@ import EcomImg from "../images/ecom.jpg"
 import AgricultureImg from "../images/agriculture.jpg"
 import MovieImg from "../images/movie.jpg"
 import CollegeImg from "../images/college.jpg"
+import SchoolLogo from "../images/schoollogo.jpg"
 
 
 export const bio ={
     name: "Manharsinh Chauhan",
     github: "https://github.com/Manharsinh09",
-    resume: "https://drive.google.com/file/d/11-7798EmSNDIlmnvaaiSg9_ead2aFrCa/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1gbHw5hdnHdFX84eB8NI_sYMVDxZJsorp/view?usp=sharing",
     roles:[
         "Programer",
         "Full Stack Developer",
@@ -247,7 +248,7 @@ export const education = [
     },
     {
         id: 2,
-        img: "img.jpg",
+        img: SchoolLogo,
         institute: "Navgujarat High School",
         date: "Jun 2019 - March 2020",
         grade: "67%",
