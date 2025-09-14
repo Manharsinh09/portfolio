@@ -21,7 +21,8 @@ const Container = styled.div`
     background: linear-gradient(to right, #5a1a9217, #96238317, #5c103a1e);
     clip-path: polygon(35% 3%, 100% 7%, 100% 97%, 64% 100%, 0 95%, 0 4%);
     @media (max-width: 530px){
-        clip-path: polygon(10 3%, 100% 2%, 100% 97%, 55% 100%, 0 98%, 0 2%);
+        clip-path: polygon(10 3%, 100% 2%, 100% 98%, 55% 100%, 0 99%, 0 2%);
+         padding-bottom: 80px;
     }
 `;
 
