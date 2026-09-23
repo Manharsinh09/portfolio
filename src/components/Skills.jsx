@@ -73,7 +73,7 @@ export const Skills = () =>{
                     transition={{duration:0.5}}                    
                     viewport={{once:true, amount:0.5}}
                 >
-                    <Title>Skilles</Title>
+                    <Title>Skills</Title>
                     <Description>{skills.description}</Description>
                 </SkillHeader>
                 <SkillContainer>
