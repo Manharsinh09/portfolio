@@ -3,26 +3,29 @@ import AgricultureImg from "../images/agriculture.jpg"
 import MovieImg from "../images/movie.jpg"
 import CollegeImg from "../images/college.jpg"
 import SchoolLogo from "../images/schoollogo.jpg"
-
-
-export const bio ={
+import FFMImg from "../images/ffm.png"
+import OneSelfImg from "../images/oneself.png"
+import HelloCVImg from "../images/hellocv.png"
+export const bio = {
     name: "Manharsinh Chauhan",
     github: "https://github.com/Manharsinh09",
     resume: "https://drive.google.com/file/d/1jXV3mU0WO8kbX_Vo5UrIu4VE-ZNeawj7/view?usp=sharing",
-    roles:[
+    roles: [
         "Programer",
         "Full Stack Developer",
+        "Frontend Developer",
+        "Backend Developer",
         "Android Developer"
     ],
-    description:"I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
 }
 
 export const skills = {
     description: "Over the past few years, I’ve honed a diverse set of skills that allow me to tackle complex challenges and deliver innovative solutions. Below are the key areas I’ve been specializing in and continuously growing",
     categories: [
         {
-            title:"Frontend",
-            skills:[
+            title: "Frontend",
+            skills: [
                 {
                     name: "HTML",
                     image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -34,7 +37,7 @@ export const skills = {
                 {
                     name: "CSS",
                     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-                    
+
                 },
                 {
                     name: "React JS",
@@ -53,8 +56,8 @@ export const skills = {
             ],
         },
         {
-            title:"Backend",
-            skills:[
+            title: "Backend",
+            skills: [
                 {
                     name: "Python",
                     image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -83,7 +86,7 @@ export const skills = {
         },
         {
             title: "Machine Learing",
-            skills:[
+            skills: [
                 {
                     name: "Python",
                     image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -99,7 +102,7 @@ export const skills = {
                     image: "https://pandas.pydata.org/static/img/pandas_mark.svg",
                 },
                 {
-                    name:"Google Colab",
+                    name: "Google Colab",
                     image: "https://colab.research.google.com/img/colab_favicon_256px.png",
                 },
                 {
@@ -111,22 +114,22 @@ export const skills = {
                     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
 
                 },
-                
+
                 // {
                 //     name: "Tensorflow",
                 //     image: "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
 
                 // },
-                
-               
+
+
 
             ]
         },
         {
             title: "Other",
-            skills:[
-                 {
-                    name:"Git",
+            skills: [
+                {
+                    name: "Git",
                     image: "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
 
                 },
@@ -136,7 +139,7 @@ export const skills = {
 
                 },
                 {
-                    name:"C",
+                    name: "C",
                     image: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
                 },
                 {
@@ -162,7 +165,7 @@ export const skills = {
                 //     image: "image.jpg",
                 // },
 
-                
+
             ]
         }
 
@@ -170,58 +173,98 @@ export const skills = {
     ]
 }
 
-export const projectData ={
+export const projectData = {
     discription: "Here are some hands-on projects where I applied my skills in both frontend and backend development, showcasing my experience across various domains.",
     project: [
+
         {
             id: 1,
-            title: "Ecommerce Website",
-            discription: "Developed a full-featured e-commerce platform using Django, featuring product browsing, user authentication, cart management, and a product recommendation.",
-            image: EcomImg,
-            category: "Web App",
-            date: "Des - Apr 2024",
-            tages: [
-                "Html","CSS","Javascript","Jqeuri","Dajngo","Python","SQL"
-            ],
-            webapp:"https://github.com/Manharsinh09/Mastercart.git",
-        },
-        {
-            id: 2,
-            title: "Movie Recomendation System",
-            discription: "Built a movie recommendation web app using Django that suggests films based on user search. Integrated filtering algorithms to enhance personalized recommendations.",
-            image: MovieImg,
-            category: "Web App",
-            date: "Jan 2025",
-            tages:[
-                "HTML","CSS","Python","Django","OMDB Api"
-            ],
-            webapp:"https://github.com/Manharsinh09/Movie-Recommendation-System.git",
-        },
-        {
-            id: 3,
             title: " Agriculture Website",
             discription: "Designed and developed a agriculture website to provide information on farming techniques. Focused on accessibility, rural usability for farmers and agricultural enthusiasts.",
             image: AgricultureImg,
             category: "Web App",
             date: "May - June 2022",
             tages: [
-                "HTML","CSS","JavaScript","PHP","MySql"
+                "HTML", "CSS", "JavaScript", "PHP", "MySql"
             ],
             webapp: "https://github.com/Manharsinh09/Agriculture.git",
 
         },
         {
-            id: 4,
+            id: 2,
             title: "College Website",
             discription: "Built a dynamic college website to showcase academic programs, departments, events, and announcements. mobile-friendly design to improve access for users.",
             image: CollegeImg,
             date: "Nov - Dec 2022",
-            tages:[
-                "HTML","CSS","JavaScript","PHP","MySQl"
+            tages: [
+                "HTML", "CSS", "JavaScript", "PHP", "MySQl"
             ],
             webapp: "https://github.com/Manharsinh09/College-Website.git",
 
-        }
+        },
+
+        {
+            id: 3,
+            title: "Ecommerce Website",
+            discription: "Developed a full-featured e-commerce platform using Django, featuring product browsing, user authentication, cart management, and a product recommendation.",
+            image: EcomImg,
+            category: "Web App",
+            date: "Des - Apr 2024",
+            tages: [
+                "Html", "CSS", "Javascript", "Jqeuri", "Dajngo", "Python", "SQL"
+            ],
+            webapp: "https://github.com/Manharsinh09/Mastercart.git",
+        },
+        {
+            id: 4,
+            title: "Movie Recomendation System",
+            discription: "Built a movie recommendation web app using Django that suggests films based on user search. Integrated filtering algorithms to enhance personalized recommendations.",
+            image: MovieImg,
+            category: "Web App",
+            date: "Jan 2025",
+            tages: [
+                "HTML", "CSS", "Python", "Django", "OMDB Api"
+            ],
+            webapp: "https://github.com/Manharsinh09/Movie-Recommendation-System.git",
+        },
+        {
+            id: 5,
+            title: "Resume Builder",
+            discription: "Redesigned and delivered the OneSelf skincare brand website with a modern, responsive, and user-friendly interface. Alsohandled website deployment, hosting setup, and ongoing maintenance to ensure smooth performance and reliability.",
+            image: HelloCVImg,
+            category: "Web App",
+            date: "Aug - Sept 2026",
+            tages: [
+                "NextJs", "ReactJS", "PostgreSQL", "Supabase", "TypeScript", "Tailwind CSS", "Framer Motion",
+            ],
+            webapp: "https://hellocv.vercel.app/",
+        },
+        {
+            id: 6,
+            title: "F&FM Rwanda Corporate Website",
+            discription: "Designed and delivered a responsive web application for an agri-tech export company, focusing on scalability, performanceoptimization, and component-based architecture.",
+            image: FFMImg,
+            category: "Web App",
+            date: "June - July 2026",
+            tages: [
+                "NextJs", "ReactJS", "TypeScript", "Tailwind CSS", "Framer Motion",
+            ],
+            webapp: "https://www.ffmrwanda.com/",
+        },
+        {
+            id: 7,
+            title: "OneSelf Skincare E-commerce Website",
+            discription: "Redesigned and delivered the OneSelf skincare brand website with a modern, responsive, and user-friendly interface. Alsohandled website deployment, hosting setup, and ongoing maintenance to ensure smooth performance and reliability.",
+            image: OneSelfImg,
+            category: "Web App",
+            date: "Aug - Sept 2026",
+            tages: [
+                "Laravel", "JavaScript", "MySql", "Bootstrap", "HTML", "CSS"
+            ],
+            webapp: "https://www.feeloneself.com/",
+        },
+
+
 
     ]
 
@@ -233,8 +276,8 @@ export const education = [
         img: "https://f2.leadsquaredcdn.com/t/itmbu1/content/common/images/ITMBU_LOGO_Quality.png",
         institute: "ITM SLS Baroda University",
         date: "Aug 2024 - May 2026",
-        grade: "8.51 CGPA",
-        description: "I am currently pursuing a Master of Computer Applications (MCA) at ITM SLS Baroda University, Vadodara. Having completed two semesters, I maintain a strong CGPA of 8.51. My coursework covers essential subjects including Data Structures, Algorithms, OOPS, Database Management Systems, Operating Systems, and Computer Networks.",
+        grade: "8.60 CGPA",
+        description: "I have completed Master of Computer Applications (MCA) at ITM SLS Baroda University, Vadodara. Having completed two semesters, I maintain a strong CGPA of 8.60. My coursework covers essential subjects including Data Structures, Algorithms, Database Management Systems, Operating Systems, and Computer Networks.",
         degree: "Master Of Computer Application - MCA",
     },
     {
@@ -260,22 +303,22 @@ export const education = [
 
 export const items = [
     {
-      title: 'May 1940',
-      cardTitle: 'Dunkirk',
-      url: 'http://www.history.com',
-      cardSubtitle:
-        'Men of the British Expeditionary Force (BEF) wade out to a destroyer...',
-      cardDetailedText:
-        'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
-      media: {
-        type: 'IMAGE',
-        source: {
-          url: 'http://someurl/image.jpg',
+        title: 'May 1940',
+        cardTitle: 'Dunkirk',
+        url: 'http://www.history.com',
+        cardSubtitle:
+            'Men of the British Expeditionary Force (BEF) wade out to a destroyer...',
+        cardDetailedText:
+            'Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.',
+        media: {
+            type: 'IMAGE',
+            source: {
+                url: 'http://someurl/image.jpg',
+            },
         },
-      },
     },
     // ... more items
-  ];
+];
 
 // 1. Movie Recommendation System (Django)
 
