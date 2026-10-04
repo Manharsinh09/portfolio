@@ -242,7 +242,7 @@ export const projectData = {
         {
             id: 6,
             title: "F&FM Rwanda Corporate Website",
-            discription: "Designed and delivered a responsive web application for an agri-tech export company, focusing on scalability, performanceoptimization, and component-based architecture.",
+            discription: "Developed and delivered a responsive web application for an agri-tech export company, implementing scalable component-based architecture and performance optimization techniques to enhance application speed, maintainability, responsiveness, and overall user experience.",
             image: FFMImg,
             category: "Web App",
             date: "June - July 2026",

@@ -31,14 +31,16 @@ const Image = styled.img`
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    flex-shrink: 0;
 `;
 
 const Content = styled.div`
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex: 1;
+    min-height: 0;
     overflow: hidden;
-    margin: 10px 0;
+    margin: 10px 0 8px 0;
 `;
 
 const TagList = styled.div`
@@ -49,6 +51,7 @@ const TagList = styled.div`
     margin-bottom: 8px;
     max-height: 52px;
     overflow: hidden;
+    flex-shrink: 0;
 `;
 
 const TagItems = styled.span`
@@ -68,20 +71,33 @@ const ProjectTitle = styled.div`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    flex-shrink: 0;
 `;
 
 const Date = styled.div`
     font-size: 12px;
     color: ${({ theme }) => theme.text_secondary};
-    margin: 3px 0 6px 0;
+    margin: 2px 0 6px 0;
+    flex-shrink: 0;
 `;
 
 const ProjectDescription = styled.div`
     font-size: 13.5px;
-    line-height: 1.45;
+    line-height: 1.5;
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary};
-    overflow: hidden;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding-right: 2px;
+
+    /* Hide scrollbar for Chrome, Safari, Opera */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 `;
 
 const ProjectLink = styled.a`
@@ -101,6 +117,7 @@ const ProjectLink = styled.a`
     transition: all 0.3s ease;
     box-sizing: border-box;
     box-shadow: 0 4px 14px rgba(133, 76, 230, 0.35);
+    flex-shrink: 0;
 
     &:hover {
         transform: translateY(-2px);
@@ -134,7 +151,7 @@ export const ProjectCard = ({ project }) => {
                     </TagList>
                     <ProjectTitle title={project.title}>{project.title}</ProjectTitle>
                     <Date>{project.date}</Date>
-                    <ProjectDescription title={project.discription}>
+                    <ProjectDescription>
                         {project.discription}
                     </ProjectDescription>
                 </Content>
