@@ -230,10 +230,10 @@ export const projectData = {
         {
             id: 5,
             title: "Resume Builder",
-            discription: "Redesigned and delivered the OneSelf skincare brand website with a modern, responsive, and user-friendly interface. Alsohandled website deployment, hosting setup, and ongoing maintenance to ensure smooth performance and reliability.",
+            discription: "Developed a full-stack, responsive resume builder application that enables users to create, customize, preview, and download professional resumes. Implemented reusable React components, dynamic form handling, real-time resume preview, customizable templates, and seamless PDF generation. Built scalable APIs and integrated database functionality to securely manage user and resume data.",
             image: HelloCVImg,
             category: "Web App",
-            date: "Aug - Sept 2026",
+            date: "Apr - May 2026",
             tages: [
                 "NextJs", "ReactJS", "PostgreSQL", "Supabase", "TypeScript", "Tailwind CSS", "Framer Motion",
             ],
